@@ -25,6 +25,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+     
+               "react-native-background-geolocation",
+             [
+               "expo-gradle-ext-vars", {
+                 "googlePlayServicesLocationVersion": "20.0.0",
+                 "appCompatVersion": "1.4.2"
+               }
+             ],
+             "react-native-background-fetch"
+    ]
   }
 }
